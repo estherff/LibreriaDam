@@ -13,23 +13,7 @@ import java.util.Scanner;
  */
 public class ControlData {
 
-    /**
-     * Comproba que un parámetro está dentro dun rango
-     *
-     * @param l1 Tipo int - límite inferior del rango de números
-     * @param l2 Tipo int - límite superior del rango de números
-     * @param op Tipo int - valor a analizar como perteneciente o no al rango l1..l2
-     * @return Tipo boolean - true si está en el rango y false en caso contrario
-     */
-    public static boolean rango(int l1, int l2, int op) {
-        boolean enrango = true;
-        if (op < l1 || op > l2) {
-            enrango = false;
-            System.out.print("\tERRO: debe introducir un valor dentro do rango de números posibles. "
-                    + "\n\t\tVolva a introducir un número: \n");
-        }
-        return enrango;
-    }
+    
 
     /**
      * Controla a introdución correcta dunha variable tipo byte utilizando unha
