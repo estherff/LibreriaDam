@@ -17,7 +17,7 @@ public class ControlData {
 
     /**
      * Controla a introdución correcta dunha variable tipo byte utilizando unha
-     * variable Scanner que se pasa por parámetro
+     * variable Scanner que se pasa por parámetros
      *
      * @param sc Tipo Scanner
      * @return Tipo byte - valor de tipo byte introducido por teclado

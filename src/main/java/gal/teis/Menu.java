@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Esther Ferreiro
+ * @author Esther   Ferreiro
  */
 public class Menu {
     
@@ -23,7 +23,7 @@ public class Menu {
     
 
     /**
-     * @param args the command line arguments
+     * Imprime el menú por pantalla
      */
     public void printMenu() {
         for (int i = 1; i <= opciones.size(); i++){
