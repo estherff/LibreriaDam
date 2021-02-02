@@ -31,7 +31,7 @@ public class ControlData {
                 valor = sc.nextByte();
                 repetir = false;
             } else {
-                System.out.print("\tERRO: debe introducir un valor numérico. "
+                System.out.println("\tERRO: debe introducir un valor numérico. "
                         + "\n\t\tVolva a introducir un número: \n");
             }
             sc.nextLine();
@@ -56,7 +56,7 @@ public class ControlData {
                 valor = sc.nextShort();
                 repetir = false;
             } else {
-                System.out.print("\tERRO: debe introducir un valor numérico. "
+                System.out.println("\tERRO: debe introducir un valor numérico. "
                         + "\n\t\tVolva a introducir un número: ");
             }
             sc.nextLine();
@@ -81,7 +81,7 @@ public class ControlData {
                 valor = sc.nextInt();
                 repetir = false;
             } else {
-                System.out.print("\tERRO: debe introducir un valor numérico. "
+                System.out.println("\tERRO: debe introducir un valor numérico. "
                         + "\n\t\tVolva a introducir un número: ");
             }
             sc.nextLine();
@@ -106,7 +106,7 @@ public class ControlData {
                 valor = sc.nextLong();
                 repetir = false;
             } else {
-                System.out.print("\tERRO: debe introducir un valor numérico. "
+                System.out.println("\tERRO: debe introducir un valor numérico. "
                         + "\n\t\tVolva a introducir un número: ");
             }
             sc.nextLine();
@@ -131,7 +131,7 @@ public class ControlData {
                 valor = sc.nextFloat();
                 repetir = false;
             } else {
-                System.out.print("\tERRO: debe introducir un valor decimal. "
+                System.out.println("\tERRO: debe introducir un valor decimal. "
                         + "\n\t\tVolva a introducir un número: ");
             }
             sc.nextLine();
@@ -156,7 +156,7 @@ public class ControlData {
                 valor = sc.nextDouble();
                 repetir = false;
             } else {
-                System.out.print("\tERRO: debe introducir un valor decimal. "
+                System.out.println("\tERRO: debe introducir un valor decimal. "
                         + "\n\t\tVolva a introducir un número: ");
             }
             sc.nextLine();
@@ -181,7 +181,7 @@ public class ControlData {
                 valor = sc.nextBoolean();
                 repetir = false;
             } else {
-                System.out.print("\tERRO: debe introducir un valor booleano. "
+                System.out.println("\tERRO: debe introducir un valor booleano. "
                         + "\n\t\tVolva a introducir un booleano: ");
             }
             sc.nextLine();
@@ -255,7 +255,7 @@ public class ControlData {
         do {
             nome = sc.nextLine();
             if (nome.isEmpty() || !nome.toUpperCase().matches("[A-ZÁÉÍÓÚÜÑ\\-\\s]*")) {
-                System.out.print("\tERRO: debe introducir algún nome válido "
+                System.out.println("\tERRO: debe introducir algún nome válido "
                         + "\n\t\tVolva a introducir: ");
             } else {
                 repetir = false;

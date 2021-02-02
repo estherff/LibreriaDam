@@ -23,7 +23,7 @@ public class Menu {
     
 
     /**
-     * Imprime el menú por pantalla
+     * Imprime o menú na pantalla
      */
     public void printMenu() {
         for (int i = 1; i <= opciones.size(); i++){
@@ -34,18 +34,16 @@ public class Menu {
     /**
      * Comproba que un parámetro está dentro dun rango
      *
-     * @param op Tipo int - valor a analizar como perteneciente o no al rango de opciones del menú
-     * @return Tipo boolean - true si está en el rango y false en caso contrario
+     * @param op int - valor a analizar como pertencente ou non ao rango de opcións do menú
+     * @return boolean - true se está no rango e false en caso contrario
      */
     public boolean rango(byte op) {
         boolean enrango = true;
         if (op < 1 || op > numOpciones) {
             enrango = false;
-            System.out.print("\tERRO: debe introducir un valor dentro do rango de números posibles. "
+            System.out.println("\tERRO: debe introducir un valor dentro do rango de números posibles. "
                     + "\n\t\tVolva a introducir un número: \n");
         }
         return enrango;
     }
-
-   
 }
