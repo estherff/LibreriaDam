@@ -8,8 +8,10 @@ package gal.teis;
 import java.util.ArrayList;
 
 /**
- *
- * @author Esther   Ferreiro
+ * @author Esther Ferreiro
+ * Imprime en pantalla un menú a partir dun ArrayList de String que conten as
+ * opcións do menú.
+ * Permite facer un control de rango da opción del menú que se introduce
  */
 public class Menu {
     

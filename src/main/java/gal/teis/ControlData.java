@@ -8,8 +8,9 @@ package gal.teis;
 import java.util.Scanner;
 
 /**
- *
- * @author Esther Ferreiro
+ * @author Amalia Falcon
+ * Conten distintos métodos estáticos que validan o tipo de datos que se lee 
+ * mediante Scanner
  */
 public class ControlData {
 
